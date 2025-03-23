@@ -9,3 +9,27 @@
     text-transform: capitalize;
     background-color: #F5381A;
 }
+
+.hero {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../assets/images/hero_pattern2.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero div .hero-title {
+    color: #263843;
+}
+
+.hero div .hero-description {
+    color: #BEC7C7;
+}
+
+.hero div .hero-btn {
+    background-color: transparent;
+    border-radius: 5px;
+    border: #F5381A solid 1px;
+    color: #F5381A;
+}

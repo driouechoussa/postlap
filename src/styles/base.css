@@ -4,9 +4,25 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../assets/fonts/Montserrat-Bold.ttf') format();
-    src: url('../assets/fonts/Montserrat-Medium.ttf') format();
-    src: url('../assets/fonts/Montserrat-Regular.ttf') format();
+    src: url('../assets/fonts/Montserrat-Bold.ttf') format('ttf/otf');
+    src: url('../assets/fonts/Montserrat-Medium.ttf') format('ttf/otf');
+    src: url('../assets/fonts/Montserrat-Regular.ttf') format('ttf/otf');
+}
+
+@font-face {
+    font-family: 'butler';
+    src: url('../assets/fonts/Butler_Bold.otf');
+}
+
+
+.hero-title , .hero-title span {
+    font-family: 'butler' , sans-serif;
+    font-size: 55px !important;
+}
+
+p {
+    font-size: 25px !important;
+    font-weight: 500;
 }
 
 a {
@@ -16,5 +32,7 @@ a {
 }
 
 button {
-    font-size: 16px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
 }
+
