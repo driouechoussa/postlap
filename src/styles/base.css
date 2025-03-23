@@ -1,0 +1,20 @@
+* {
+    font-family: 'Montserrat' , sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-Bold.ttf') format();
+    src: url('../assets/fonts/Montserrat-Medium.ttf') format();
+    src: url('../assets/fonts/Montserrat-Regular.ttf') format();
+}
+
+a {
+    text-transform: capitalize;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+button {
+    font-size: 16px !important;
+}
