@@ -1,4 +1,5 @@
 import Navigation from "../components/Navigation"
+import Footer from "../components/footer"
 import React from "react"
 function Index() {
   return (
@@ -18,6 +19,7 @@ function Index() {
           <button className="hero-btn px-3 py-2 text-capitalize m-4 " type="button">start reading</button>
         </div>
       </div>
+      <Footer/>
     </React.Fragment>
   );
 }

@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../assets/fonts/Montserrat-Bold.ttf') format('ttf/otf');
-    src: url('../assets/fonts/Montserrat-Medium.ttf') format('ttf/otf');
-    src: url('../assets/fonts/Montserrat-Regular.ttf') format('ttf/otf');
+    src: url('../assets/fonts/Montserrat-Bold.ttf') ;
+    src: url('../assets/fonts/Montserrat-Medium.ttf') ;
+    src: url('../assets/fonts/Montserrat-Regular.ttf') ;
 }
 
 @font-face {
@@ -20,15 +20,22 @@
     font-size: 55px !important;
 }
 
+h4 {
+    font-size: 15px !important;
+}
+
 p {
     font-size: 25px !important;
     font-weight: 500;
+    font-family: 'Montserrat' , sans-serif;
 }
 
 a {
+    font-family: 'Montserrat' , sans-serif;
     text-transform: capitalize;
     font-size: 15px !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
 }
 
 button {
@@ -36,3 +43,15 @@ button {
     font-weight: 600 !important;
 }
 
+footer {
+    background-color: #383838 !important;
+}
+
+.no-outline:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.pointer {
+    cursor: pointer;
+}

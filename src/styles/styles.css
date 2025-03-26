@@ -33,3 +33,14 @@
     border: #F5381A solid 1px;
     color: #F5381A;
 }
+
+
+.title_footer {
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer_description {
+    color: #fff;
+    font-size: 20px !important;
+}
